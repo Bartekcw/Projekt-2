@@ -1,0 +1,556 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
+.mainbox {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #4E4E4E;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F1F1F1;
+}
+
+.nav1 {
+    color: #ffffff;
+    position: absolute;
+    left: 14px;
+    font-weight: bold;
+}
+
+.nav2 {
+    position: absolute;
+    right: 90px;
+    top: -1000px;
+    color: transparent;
+}
+
+.nav3 {
+    position: absolute;
+    right: 197px;
+    top: -1000px;
+    color: transparent;
+}
+
+.nav4 {
+    position: absolute;
+    right: 292px;
+    top: -1000px;
+    color: transparent;
+}
+
+.nav4:disabled {
+    position: absolute;
+    right: 292px;
+    top: -1000px;
+    color: transparent;
+}
+
+.landingbackground {
+    background-image: url("https://i.picsum.photos/id/1041/1920/1080.jpg?hmac=Z1V-W_dSKG-bwS2QhtQAJuFC4-NijcvFb7-BriiV2J4");
+    width: 100%;
+    height: 100vh;
+
+}
+
+.bgshade {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.landingtext1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    position: absolute;
+    left: 14px;
+    top: 178px;
+    display: flex;
+    align-items: center;
+    width: 360px;
+}
+
+.landingtext2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    position: absolute;
+    left: 14px;
+    top: 330px;
+}
+
+.landingbtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #ffffff;
+    padding: 14px 57px;
+    background-color: transparent;
+    position: absolute;
+    top: 392px;
+    left: 14px;
+    text-decoration: none;
+}
+
+/* .landingbtn:hover {
+    transition: 1s;
+    transition-timing-function: linear;
+    background-color: #ffffff;
+    color: #000000;
+} */
+
+.aboutus {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    box-sizing: border-box;
+    background-color: #F1F1F1;
+    position: relative;
+}
+
+.aboutusbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 34px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 34px;
+    min-height: 600px;
+    width: 100%;
+}
+
+.abouttext1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #152D41;
+    display: flex;
+    justify-content: center;
+}
+
+.employee {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .employee:nth-of-type(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.position1 {
+    position: absolute;
+    top: 113px;
+}
+
+.position2 {
+    position: absolute;
+    top: 350px;
+} */
+
+.abouttext2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    width: 100%;
+}
+
+.abouttext3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    width: 100%;
+}
+
+.circle1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 197px;
+    width: 197px;
+    border-radius: 50%;
+    background-image: url("https://cdn.discordapp.com/attachments/386504882502369281/912622861586419742/osoba1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.circle2 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    height: 197px;
+    width: 197px;
+    background-image: url("https://cdn.discordapp.com/attachments/386504882502369281/912623190528917574/unknown.png");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.ofertabackground {
+    display: flex;
+    justify-content: center;
+    height: 2410px;
+    background-color: #405D78;
+    position: relative;
+}
+
+.ofertatext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: 76px;
+}
+
+.parentbox {
+    width: 338px;
+    height: 2202px;
+    position: absolute;
+    top: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.boxdot {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #E07A64;
+    position: absolute;
+    top: -19px;
+    left: -19px;
+}
+
+.childbox {
+    height: 338px;
+    width: 332px;
+    background-color: #F1F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* .childbox:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    transition-timing-function: linear;
+} */
+
+.box1text {
+    width: 149px;
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    line-height: 14px;
+
+}
+
+.box1textsmall {
+    font-size: 18px;
+    line-height: 1px;
+}
+
+footer {
+    height: 147px;
+    background-color: #4E4E4E;
+    position: relative;  
+    font-size: 36px;
+    line-height: 21px; 
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footertext {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #ffffff;
+    position: absolute;
+    top: 38px;
+}
+
+.fa-facebook-square {
+    position: absolute;
+    top: 74px;
+    margin-left: 50px;
+}
+
+.fa-instagram {
+    position: absolute;
+    top: 74px;
+    margin-right: 50px;
+}
+
+.pagelink {
+    color: transparent;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 960px){
+    .mainbox {
+        width: 960px;
+    }
+
+    .nav1 {
+        left: 94px;
+    }
+
+    .nav2 {
+        position: absolute;
+        right: 90px;
+        color: #F1F1F1;
+        top: 14px;
+    }
+    
+    .nav3 {
+        position: absolute;
+        right: 197px;
+        color: #F1F1F1;
+        top: 14px;
+    }
+    
+    .nav4 {
+        position: absolute;
+        right: 292px;
+        color: #F1F1F1;
+        top: 14px;
+    }
+
+    .nav4:disabled {
+        position: absolute;
+        right: 292px;
+        color: #F1F1F1;
+        top: 14px;
+    }
+
+    .nav4:hover {
+        cursor:not-allowed;
+    }
+
+    .pagelink {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .landingtext1 {
+        position: absolute;
+        left: 94px;
+        top: 178px;
+        width: 550px;
+    }
+    
+    .landingtext2 {
+        position: absolute;
+        left: 94px;
+        top: 300px;
+    }
+    
+    .landingbtn {
+        position: absolute;
+        top: 362px;
+        left: 94px;
+        text-decoration: none;
+    }
+    
+    .landingbtn:hover {
+        transition: 1s;
+        transition-timing-function: linear;
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    .aboutus {
+        height: 700px;
+        background-color: #F1F1F1;
+        position: relative;
+    }
+    
+    .aboutusbox {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-top: 0px;
+        height: 550px;
+        width: 775px;
+        position: absolute;
+        left: 95px;
+        top: 51px;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    .abouttext1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        width: 386px;
+        color: #152D41;
+        position: absolute;
+        justify-content: flex-start;
+    }
+
+    .employee {
+        width: 775px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .employee:nth-of-type(odd) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    
+    .position1 {
+        position: absolute;
+        top: 113px;
+    }
+    
+    .position2 {
+        position: absolute;
+        top: 350px;
+    }
+    
+    .abouttext2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        width: 550px;
+    }
+    
+    .abouttext3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        line-height: 21px;
+        width: 550px;
+    }
+    
+    .circle1 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    .circle2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .ofertabackground {
+        height: 690px;
+        background-color: #405D78;
+        position: relative;
+    }
+    
+    .ofertatext {
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+        color: #ffffff;
+        position: absolute;
+        top: 50px;
+        left: 110px;
+    }
+
+    .parentbox {
+        width: 720px;
+        height: 451px;
+        position: absolute;
+        top: 174px;
+        left: 120px;
+    }
+    
+    .boxdot {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background-color: #E07A64;
+        position: absolute;
+        top: -11px;
+        left: -11px;
+    }
+    
+    .childbox {
+        height: 194px;
+        width: 198px;
+    }
+    
+    .childbox:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+        transition-timing-function: linear;
+    }
+
+    footer {
+        height: 71px;
+        font-size: 30px;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .footertext {
+        position: absolute;
+        top: 25px;
+        left: 94px;
+    }
+
+    .fa-facebook-square {
+        position: absolute;
+        top: 24px;
+        right: 82px;
+        margin-left: 0px;
+    }
+    
+    .fa-instagram {
+        position: absolute;
+        top: 24px;
+        right: 121px;
+        margin-right: 0px;
+    }
+}
